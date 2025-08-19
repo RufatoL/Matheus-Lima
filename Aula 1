@@ -11,3 +11,10 @@ elif n2 > n1:
 
 else:
     print("Ambos os numeros sao iguais")
+
+
+# Tabuada
+numero = int(input("digite um numero"))
+for i in range(1, 11):
+    resultado = numero * i
+    print(f"{numero} x {i} = {resultado}" )
